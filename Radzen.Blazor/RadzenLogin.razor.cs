@@ -21,9 +21,9 @@ namespace Radzen.Blazor
     ///     Console.WriteLine($"{name} -> Username: {args.Username} and password: {args.Password}");
     ///   }
     ///
-    ///   void OnRegister(string name)
+    ///   void OnRegister()
     ///   {
-    ///     Console.WriteLine($"{name} -> Register");
+    ///     Console.WriteLine("Register");
     ///   }
     ///
     ///   void OnResetPassword(string value, string name)
